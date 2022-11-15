@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-bon</title>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/main-header.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main-body.css">
 
     <link rel="stylesheet" href="./css/left-panel.css">
+    <link rel="stylesheet" href="./css/main-panel.css">
 </head>
 <body>
     <header id="main-header">
         <a id="trademark" href="#">
-            <div id="site-logo"><img src="./logo.png" alt=""></div>
+            <div id="site-logo"><img src="./icons/profiles/1.png" alt=""></div>
             <h1 id="site-name">E-bon</h1>
         </a>
     </header>
+
     <main id="main-body">
         <div id="left-panel">
             <div id="profile-panel">
                 <div id="profile-detaills">
                     <div id="user-detail-container">
                         <div id="user-profile-picture-container">
-                            <img src="./logo.png" id="user-profile-picture" alt="profile picture">
+                            <img src="./icons/profiles/1.png"  class="user-profile-picture" alt="profile picture">
                         </div>
                         <div id="user-details">
                             <h4 id="user-username">Anonymous Jomaribon</h4>
@@ -41,7 +43,7 @@
                             <aside class="connection-type">Followers</aside>
                         </div>
                         <div id="user-chicks" class="connection">
-                            <h4 id="num-followers">1</h4>
+                            <h4 id="num-followers">3</h4>
                             <aside class="connection-type">Followers</aside>
                         </div>
                     </div>
@@ -51,7 +53,7 @@
             <div id="tags-panel">
                 <div id="tags-header">
                     <div id="tag-label">
-                        <img src="" alt="">
+                        <img src="./icons/price-tag.png" alt="tag-icon">
                         <h3>Tags</h3>
                     </div>
                     <a href="#">View All</a>
@@ -80,34 +82,34 @@
             </div>
             <div id="notifications-panel">
                 <div id="notification-header">
-                    <img src="" alt="">
+                    <img src="./icons/notification.png" alt="notification">
                     <h3>Notifications</h3>
                 </div>
                 <div id="notification-list">
                     <a href="#" class="notification-item">
-                        <img src="" alt="">
-                        <div>
+                        <img class="friend-pfp" src="./icons/bird.png" alt="friend-pfp">
+                        <div class="notification-details">
                             <div class="notify-label"><strong>Torribon</strong> posted "PLM...</div>
                             <div class="notify-time">1:24 p.m.</div>
                         </div>
                     </a>
                     <a href="#" class="notification-item">
-                        <img src="" alt="">
-                        <div>
+                        <img class="friend-pfp" src="./icons/dove.png" alt="friend-pfp">
+                        <div class="notification-details">
                             <div class="notify-label"><strong>Abenohen</strong> liked your post!</div>
                             <div class="notify-time">3:19 p.m.</div>
                         </div>
                     </a>
                     <a href="#" class="notification-item">
-                        <img src="" alt="">
-                        <div>
+                        <img class="friend-pfp" src="./icons/robin.png" alt="friend-pfp">
+                        <div class="notification-details">
                             <div class="notify-label"><strong>John The Bird</strong> sent you...</div>
                             <div class="notify-time">5:11 p.m.</div>
                         </div>
                     </a>
                     <a href="#" class="notification-item">
-                        <img src="" alt="">
-                        <div>
+                        <img class="friend-pfp" src="./icons/stork.png" alt="friend-pfp">
+                        <div class="notification-details">
                             <div class="notify-label"><strong>Paowings</strong> added you!</div>
                             <div class="notify-time">6:30 p.m.</div>
                         </div>
@@ -116,7 +118,60 @@
             </div>
         </div>
 
-        <div id="main-panel"></div>
+        <div id="main-panel">
+            <div id="feed-actions">
+                <div id="user-text-area">
+                    <img src="./icons/profiles/1.png" class="user-profile-picture" alt="User profile picture">
+                    <h3>Write something...</h3>
+                </div>
+                <div id="user-actions">
+                    <div id="write-actions">
+                        <img src="./icons/gallery.png" alt="Gallery" class="usr-acts">
+                        <img src="./icons/gif.png" alt="GIF" class="usr-acts">
+                        <img src="./icons/poll.png" alt="Poll" class="usr-acts">
+                        <img src="./icons/happy.png" alt="Emote" class="usr-acts">
+                        <img src="./icons/calendar.png" alt="Calendar" class="usr-acts">
+                        <img src="./icons/tags.png" alt="" class="usr-acts">
+                    </div>
+                    <h3>Post</h3>
+                </div>
+            </div>
+
+            <div id="feed-posts">
+                <div class="std-post">
+                    <div class="std-info">
+                        <img src="./icons/profiles/6.png" class="std-pfp" alt="Student Profile Picture">
+                        <a href="#" class="std-details">
+                            <h3 class="std-username">Anonymowls</h3>
+                            <aside class="std-handle">@wootwoot63</aside>
+                        </a>
+                    </div>
+                    <div class="std-content">
+                        <div class="content-caption">
+                            All these minor subjects stacking up activities make studying for majors so minor...
+                        </div>
+                        <div class="content-imgs">
+                            <img src="./imgs/w1.jpg" alt="Image 1">
+                            <img src="./imgs/w2.jpg" alt="image 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="std-post">
+                <div class="std-info">
+                    <img src="./icons/profiles/5.png" class="std-pfp" alt="Student Profile Picture">
+                    <a href="#" class="std-details">
+                        <h3 class="std-username">Michelleaglo</h3>
+                        <aside class="std-handle">@sleepdeprivedeagle</aside>
+                    </a>
+                </div>
+                <div class="std-content">
+                    <div class="content-caption">
+                        Being chosen as an irregular student for different subjects even though I'm not a shiftee is so frustrating. We keep on changing professors (already had 3 for just half a sem), and they do not even conduct proper methods to make the class adjust from one professor to another. Some of our outputs
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div id="right-panel"></div>
     </main>
