@@ -1,0 +1,130 @@
+/* PROFILE */
+
+#profile-panel {
+    display: flex;
+    padding: 1.5em;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    border-radius: 1.5em;
+    color: rgb(66, 66, 66);
+}
+
+#user-detail-container {
+    display: flex;
+    align-items: center;
+}
+
+#user-profile-picture {
+    height: 65px;
+    width: 65px;
+}
+
+#user-profile-picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    border-radius: 100%;
+    margin-right: 10px;
+    width: fit-content;
+    background-color: rgb(0, 0, 0);
+}
+
+#user-details, .connection {
+    line-height: 20px;
+    font-family: var(--primary-font);
+}
+
+#user-username {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#user-handle {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#user-connections {
+    margin-top: 1.5em;
+    display: flex;
+}
+
+.connection {
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* TAGS */
+#tags-panel {
+    margin-top: 10px;
+    color: rgb(66, 66, 66);
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tags-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--primary-font);
+}
+
+#tag-label {
+    display: flex;
+}
+
+#tag-label h3 {
+    color: rgb(235, 141, 1);
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+#tags-list {
+    margin-top: 0.5em;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tag-rows {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: .4em;
+}
+
+.tag {
+    font-family: var(--secondary-font);
+    background-color: gainsboro;
+    padding: 0.3em 1.3em;
+    border-radius: 1em;
+    font-size: .8em;
+}
+
+/* Notifications */
+#notifications-panel {
+    margin-top: 10px;
+    padding: 1em;
+    background-color: gainsboro;
+    border-radius: 1em;
+}
+
+#notification-header {
+    display: flex;
+    font-family: var(--primary-font);
+    font-size: 1.3em;
+}
+
+.notification-item {
+    display: flex;
+}

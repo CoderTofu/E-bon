@@ -1,0 +1,26 @@
+#main-header {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#site-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+#trademark {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#trademark #site-name {
+    font-family: var(--secondary-font);
+    color: #000;
+    font-weight: 500;
+    margin-left: 5px;
+    font-size: 2.5em;
+}

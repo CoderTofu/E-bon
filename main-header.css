@@ -1,8 +1,0 @@
-#main-header {
-    width: 100vw;
-    height: 100px;
-    background-color: rgb(182, 182, 226);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}

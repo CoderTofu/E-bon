@@ -5,20 +5,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-bon</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./main-header.css">
-    <link rel="stylesheet" href="./main-body.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/main-header.css">
+    <link rel="stylesheet" href="./css/main-body.css">
+
+    <link rel="stylesheet" href="./css/left-panel.css">
 </head>
 <body>
     <header id="main-header">
         <a id="trademark" href="#">
-            <div id="site-logo"></div>
-            <h1 id="site-name"></h1>
+            <div id="site-logo"><img src="./logo.png" alt=""></div>
+            <h1 id="site-name">E-bon</h1>
         </a>
     </header>
     <main id="main-body">
-        <div id="left-panel"></div>
+        <div id="left-panel">
+            <div id="profile-panel">
+                <div id="profile-detaills">
+                    <div id="user-detail-container">
+                        <div id="user-profile-picture-container">
+                            <img src="./logo.png" id="user-profile-picture" alt="profile picture">
+                        </div>
+                        <div id="user-details">
+                            <h4 id="user-username">Anonymous Jomaribon</h4>
+                            <aside id="user-handle">@msaplm01</aside>
+                        </div>
+                    </div>
+                    <div id="user-connections">
+                        <div id="user-follower" class="connection">
+                            <h4 id="num-followers">1</h4>
+                            <aside class="connection-type">Followers</aside>
+                        </div>
+                        <div id="user-following" class="connection">
+                            <h4 id="num-followers">4</h4>
+                            <aside class="connection-type">Followers</aside>
+                        </div>
+                        <div id="user-chicks" class="connection">
+                            <h4 id="num-followers">1</h4>
+                            <aside class="connection-type">Followers</aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tags-panel">
+                <div id="tags-header">
+                    <div id="tag-label">
+                        <img src="" alt="">
+                        <h3>Tags</h3>
+                    </div>
+                    <a href="#">View All</a>
+                </div>
+                <div id="tags-list">
+                    <div class="tag-rows">
+                        <a href="#" class="tag">Schedule Conflict</a>
+                        <a href="#" class="tag">Subject Issues</a>
+                    </div>
+                    <div class="tag-rows">
+                        <a href="#" class="tag">First Year</a>
+                        <a href="#" class="tag">Second Year</a>
+                        <a href="#" class="tag">MMW</a>
+                    </div>
+                    <div class="tag-rows">
+                        <a href="#" class="tag">ICC</a>
+                        <a href="#" class="tag">Third Year</a>
+                        <a href="#" class="tag">Fourth Year</a>
+                    </div>
+                    <div class="tag-rows">
+                        <a href="#" class="tag">Final Exams</a>
+                        <a href="#" class="tag">Midterms</a>
+                        <a href="#" class="tag">ID</a>
+                    </div>
+                </div>
+            </div>
+            <div id="notifications-panel">
+                <div id="notification-header">
+                    <img src="" alt="">
+                    <h3>Notifications</h3>
+                </div>
+                <div id="notification-list">
+                    <a href="#" class="notification-item">
+                        <img src="" alt="">
+                        <div>
+                            <div class="notify-label"><strong>Torribon</strong> posted "PLM...</div>
+                            <div class="notify-time">1:24 p.m.</div>
+                        </div>
+                    </a>
+                    <a href="#" class="notification-item">
+                        <img src="" alt="">
+                        <div>
+                            <div class="notify-label"><strong>Abenohen</strong> liked your post!</div>
+                            <div class="notify-time">3:19 p.m.</div>
+                        </div>
+                    </a>
+                    <a href="#" class="notification-item">
+                        <img src="" alt="">
+                        <div>
+                            <div class="notify-label"><strong>John The Bird</strong> sent you...</div>
+                            <div class="notify-time">5:11 p.m.</div>
+                        </div>
+                    </a>
+                    <a href="#" class="notification-item">
+                        <img src="" alt="">
+                        <div>
+                            <div class="notify-label"><strong>Paowings</strong> added you!</div>
+                            <div class="notify-time">6:30 p.m.</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <div id="main-panel"></div>
+
         <div id="right-panel"></div>
     </main>
 </body>
