@@ -55,6 +55,7 @@
 
 .rmd-user-check {
     position: absolute;
+    filter: grayscale(1);
     top: 2px;
     bottom: 0;
     right:-20px;
