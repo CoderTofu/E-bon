@@ -24,10 +24,17 @@ body {
 }
 
 #main-body {
+    transform: scale(0.9);
     display: flex;
+    margin-top: -50px !important;
 }
 
 #left-panel {
-    margin-top: 50px;
-    margin-right: 50px;
+    transform: scale(0.9);
+    margin-right: 20px;
+}
+
+#right-panel {
+    transform: scale(0.9);
+    margin-left: 20px;
 }
